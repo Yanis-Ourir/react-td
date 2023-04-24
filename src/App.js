@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
 import Welcome from './components/Welcome';
-import image from './images/Dio.png';
+import image from './images/zaWarudo.gif';
 
 
 function App() {
@@ -35,7 +35,6 @@ function App() {
     if (seconds === 10) {
       return <h1 style={{ fontSize: 50 }} class="center-warudo">ZA WARUDO !!!</h1>;
     }
-
   }
 
   function dio() {
